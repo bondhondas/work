@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.top {
+    background-image: url("images/Frame1.jpg");
+    background-repeat: no-repeat;
+    background-position: 0%;
+    margin-top: 20px;
+
+}
+
+.yoyo1 {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.yoyo2 {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.yoyo3 {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.yoyo4 {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1 span {
+    color: rgb(0, 255, 85);
+}
+
+.yoyo1 img {
+    width: 80%;
+}
+.yoyo3 img {
+    width: 70%;
+}
+
+.anchor-button {
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+p {
+    color: dimgray;
+}
+
+.dream-area {
+    background-image: url("images/Frame.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+ .section-wrap {
+     margin: 80px 10%;
+ }
+
+ .section-header {
+     text-align: center;
+ }
+
+ .section-title {
+     color: #575757;
+     font-weight: bolder;
+     font-size: 24px;
+     margin-bottom: 24px;
+ }
+
+ .card-container {
+     margin: 32px 0;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .card {
+     flex-basis: 20%;
+     display: flex;
+     flex-direction: column;
+     background-color: white;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     transition: 0.3s;
+     padding: 8px;
+     border-radius: 8px;
+ }
+
+ .card:hover {
+     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ .card-image-wrapper {
+     width: 100%;
+     height: 220px;
+ }
+
+ .card-image-wrapper img {
+     width: 100%;
+     height: 100%;
+     border-radius: 4px;
+ }
+
+ .card-title {
+     margin: 8px;
+     color: #000000;
+     font-weight: bold;
+     font-size: 24px;
+ }
+
+ .card-text {
+     max-width: 100% !important;
+     word-break: break-all;
+ }
+
+
+
+ .follower-card {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     border-radius: 32px;
+     padding: 64px 0;
+     margin: 5% 10%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     transition: 0.3s;
+ }
+
+ .follow1 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .follow-count {
+     font-weight: bolder;
+     color: black;
+     font-size: 32px;
+     margin-bottom: 16px;
+ }
+
+
+ .m-footer {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: #0B0D17;
+ }
+
+ .m-footer p {
+     color: white;
+ }
